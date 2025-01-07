@@ -275,7 +275,7 @@ def check_email(email):
 	check+=1
 	
 
-	sys.stdout.write(f"\r {bo}[ {C}TIK TOK {bo}] {C}Hit : {F}{good_hot} \n {C}Wrong : {R}{bad_ig} \n {C}Good Tik : {X}{good_ig}  {C}{bo}\n Checked â€¢{check}\r")
+	sys.stdout.write(f'''\r {bo}[ {C}TIK TOK {bo}] {C}Hit : {F}{good_hot}  {C}Wrong : {R}{bad_ig}  {C}Good Tik : {X}{good_ig}  {C}{bo} Checked {check}\r''')
 	sys.stdout.flush()
 
 def rand_ids():  
