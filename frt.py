@@ -78,7 +78,7 @@ ss = str(now.second)
 t=(mm + "/" + dd + "/" + yyyy + " " + hour + ":" + mi + ":" + ss) # HIDE
 hours = (now.hour)
 x = datetime.datetime.now()
-g= datetime.datetime(2025, 1, 11, 12, 0 ,0) # HIDE
+g= datetime.datetime(2025, 1, 9, 12, 0 ,0) # HIDE
 if (x.strftime("%x"))>(g.strftime("%x")): # HIDE
  print('\033[1;32m تم ايقاف الاداه راسل المطوره ࢪيفن') # HIDE
  exit()
