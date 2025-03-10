@@ -1,1 +1,1 @@
-https://graph.facebook.com/auth/login
+https://graph.facebook.com/auth/login99
